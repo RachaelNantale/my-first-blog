@@ -1,0 +1,38 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "Rachael's first blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RachaelNantale/my-first-blog.git"
+  },
+  "keywords": [
+    "reactjs",
+    "nodejs"
+  ],
+  "author": "Rachael Nantale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RachaelNantale/my-first-blog/issues"
+  },
+  "homepage": "https://github.com/RachaelNantale/my-first-blog#readme",
+  "dependencies": {
+    "@okta/oidc-middleware": "^1.0.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "epilogue": "^0.7.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "sequelize": "^4.42.0",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
